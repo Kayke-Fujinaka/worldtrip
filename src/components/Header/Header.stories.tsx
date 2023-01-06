@@ -1,8 +1,8 @@
 /* eslint-disable react/function-component-definition */
 /* eslint-disable import/no-extraneous-dependencies */
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Header } from "./Header";
+import { Header } from ".";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

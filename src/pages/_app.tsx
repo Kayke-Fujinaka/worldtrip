@@ -1,11 +1,16 @@
-/* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable import/no-unresolved */
 import type { AppProps } from "next/app";
+import { ThemeProvider } from "styled-components";
 
-import "../../styles/globals.scss";
+import GlobalStyle from "@/../styles/global";
+import themes from "@/../styles/themes";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <ThemeProvider theme={themes}>
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
 
 export default MyApp;

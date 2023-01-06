@@ -8,10 +8,10 @@ import {
   Image,
   Link as ChakraLink,
 } from "@chakra-ui/react";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 import Logo from "../../../public/assets/logo.svg";
-import Link from "../Link";
 
 export function Header(): JSX.Element {
   const { asPath } = useRouter();

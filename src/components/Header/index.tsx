@@ -29,6 +29,7 @@ export function Header(): JSX.Element {
               <Icon
                 color="#47585B"
                 as={FiChevronLeft}
+                cursor="pointer"
                 boxSize={{ base: "16px", md: "32px" }}
               />
             </Container>

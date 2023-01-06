@@ -1,11 +1,6 @@
-export interface Themes {
-  colors: Record<string, string>;
-  fontSizes: Record<string, string>;
-  fontWeights: Record<string, number>;
-  lineHeights: Record<string, string | number>;
-}
+import { extendTheme } from "@chakra-ui/react";
 
-export const themes: Themes = {
+export const themes = extendTheme({
   colors: {
     white: "#FFFFFF",
     black: "#000000",
@@ -41,4 +36,4 @@ export const themes: Themes = {
     "13.5": "3.375rem",
     "18": "4.5rem",
   },
-};
+});

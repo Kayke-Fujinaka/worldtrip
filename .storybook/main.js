@@ -7,7 +7,9 @@ module.exports = {
     "storybook-addon-next-router",
     "storybook-addon-next",
   ],
-
+  features: {
+    emotionAlias: false,
+  },
   framework: "@storybook/react",
   core: {
     builder: "@storybook/builder-webpack5",

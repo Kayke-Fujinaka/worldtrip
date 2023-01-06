@@ -1,18 +1,16 @@
-/* eslint-disable react/function-component-definition */
-/* eslint-disable import/no-extraneous-dependencies */
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { Header } from ".";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Example/Header",
+  title: "Header",
   component: Header,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-} as ComponentMeta<typeof Header>;
+  parameters: {
+    nextRouter: {
+      path: "/",
+      asPath: "/",
+    },
+  },
+} as Meta;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Header> = (args) => <Header />;
-
-export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
+export const Primary: StoryObj = {};

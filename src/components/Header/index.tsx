@@ -4,6 +4,8 @@ import { Flex, Icon, Image, Link as ChakraLink } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
+import Logo from "../../../public/assets/logo.svg";
+
 export function Header(): JSX.Element {
   const router = useRouter();
   const homePath = router.asPath === "/";
@@ -16,7 +18,7 @@ export function Header(): JSX.Element {
       width="100%"
       py={{ base: 4, md: 7 }}
     >
-      {!homePath && (
+      {homePath && (
         <ChakraLink
           as={Link}
           href="/"
@@ -31,7 +33,7 @@ export function Header(): JSX.Element {
           />
         </ChakraLink>
       )}
-      <Image src="/assets/logo.svg" alt="worldtrip logo" />
+      <Image src={Logo.src} alt="worldtrip logo" />
     </Flex>
   );
 }

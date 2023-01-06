@@ -51,6 +51,7 @@ module.exports = {
   },
   rules: {
     "react/jsx-props-no-spreading": 0,
+    "react/require-default-props": "off",
     "import/extensions": [
       "warn",
       "ignorePackages",

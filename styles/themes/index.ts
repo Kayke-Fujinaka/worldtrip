@@ -1,4 +1,11 @@
-export default {
+export interface Themes {
+  colors: Record<string, string>;
+  fontSizes: Record<string, string>;
+  fontWeights: Record<string, number>;
+  lineHeights: Record<string, string | number>;
+}
+
+export const themes: Themes = {
   colors: {
     white: "#FFFFFF",
     black: "#000000",

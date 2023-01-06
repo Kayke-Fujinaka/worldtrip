@@ -4,7 +4,7 @@ import { SEO } from "@/SEO";
 export default function Home() {
   return (
     <>
-      <SEO title="Teste" />
+      <SEO title="Home" />
       <Header />
     </>
   );

@@ -1,9 +1,37 @@
-import { HeaderWrapper } from "./Header.styles";
+import { FiChevronLeft } from "react-icons/fi";
+
+import { Flex, Icon, Image, Link as ChakraLink } from "@chakra-ui/react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export function Header(): JSX.Element {
+  const router = useRouter();
+  const homePath = router.asPath === "/";
+
   return (
-    <HeaderWrapper>
-      <h1>Hello World</h1>
-    </HeaderWrapper>
+    <Flex
+      as="header"
+      align="center"
+      justify="center"
+      width="100%"
+      py={{ base: 4, md: 7 }}
+    >
+      {!homePath && (
+        <ChakraLink
+          as={Link}
+          href="/"
+          position="absolute"
+          top={["32px", "28px", "40px"]}
+          left={{ base: "18px", lg: "60px" }}
+        >
+          <Icon
+            color="#47585B"
+            as={FiChevronLeft}
+            fontSize={["1.4rem", "1.8rem"]}
+          />
+        </ChakraLink>
+      )}
+      <Image src="/assets/logo.svg" alt="worldtrip logo" />
+    </Flex>
   );
 }

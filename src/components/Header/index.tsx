@@ -27,6 +27,7 @@ export function Header(): JSX.Element {
           <ChakraLink as={Link} href="/">
             <Container>
               <Icon
+                data-testid="back-to-home"
                 color="#47585B"
                 as={FiChevronLeft}
                 cursor="pointer"

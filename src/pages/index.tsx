@@ -1,4 +1,4 @@
-import { Banner, Header } from "@/components";
+import { Banner, Header, TravelTypes } from "@/components";
 import { SEO } from "@/SEO";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <SEO title="Home" />
       <Header />
       <Banner />
+      <TravelTypes />
     </>
   );
 }

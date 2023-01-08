@@ -10,7 +10,7 @@ import { Travel } from "./Travel";
 export function TravelTypes() {
   const travels = {
     cocktail: {
-      text: "vida noturn",
+      text: "vida noturna",
       image: Cocktail,
     },
     surf: {

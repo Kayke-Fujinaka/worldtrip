@@ -1,0 +1,49 @@
+<!-- Typography.stories.mdx -->
+
+import { Meta, Typeset } from '@storybook/addon-docs/blocks';
+
+<Meta title="Tokens/Typography" />
+
+export const typography = {
+  type: {
+    primary: 'Poppins',
+  },
+  weight: {
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+  },
+  size: {
+    sm: 14,
+    lg: 18,
+    xl: 20,
+    xl2: 24,
+    xl3: 28,
+    xl4: 36,
+    xl5: 48,
+  },
+};
+
+export const SampleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+# Typography
+
+**Font:** Poppins
+
+**Weights:** 400(normal), 500(medium), 600(semibold), 700(bold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.sm),
+    Number(typography.size.lg),
+    Number(typography.size.xl),
+    Number(typography.size.xl2),
+    Number(typography.size.xl3),
+    Number(typography.size.xl4),
+    Number(typography.size.xl5),
+  ]}
+  fontWeight={typography.weight.black}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>

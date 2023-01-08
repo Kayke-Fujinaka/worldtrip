@@ -1,14 +1,34 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 
+import Building from "../../../public/assets/building.svg";
+import Cocktail from "../../../public/assets/cocktail.svg";
+import Earth from "../../../public/assets/earth.svg";
+import Museum from "../../../public/assets/museum.svg";
+import Surf from "../../../public/assets/surf.svg";
 import { Travel } from "./Travel";
 
 export function TravelTypes() {
   const travels = {
-    cocktail: "vida noturna",
-    surf: "praia",
-    building: "moderno",
-    museum: "clássico",
-    earth: "e mais...",
+    cocktail: {
+      text: "vida noturn",
+      image: Cocktail,
+    },
+    surf: {
+      text: "praia",
+      image: Surf,
+    },
+    building: {
+      text: "moderno",
+      image: Building,
+    },
+    museum: {
+      text: "clássico",
+      image: Museum,
+    },
+    earth: {
+      text: "e mais...",
+      image: Earth,
+    },
   };
 
   return (
@@ -21,9 +41,9 @@ export function TravelTypes() {
       flexWrap="wrap"
       gap={[1, 5]}
     >
-      {Object.entries(travels).map(([key, text]) => (
+      {Object.entries(travels).map(([key, item]) => (
         <GridItem key={key}>
-          <Travel image={key} text={text} />
+          <Travel image={item.image.src} text={item.text} />
         </GridItem>
       ))}
     </Grid>

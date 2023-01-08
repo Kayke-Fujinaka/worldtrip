@@ -18,7 +18,7 @@ export function Travel({ image, text }: TravelProps) {
       justify="center"
     >
       {isMobile ? (
-        <Image src={`assets/${image}.svg`} w="85px" h="85px" mb="6" />
+        <Image src={image} w="85px" h="85px" mb="6" />
       ) : (
         <Text color="highlight" fontSize="4xl" mr="2">
           •

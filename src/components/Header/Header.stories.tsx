@@ -4,7 +4,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { Header } from ".";
 
 export default {
-  title: "Header",
+  title: "Components/Header",
   component: Header,
   parameters: {
     layout: "fullscreen",

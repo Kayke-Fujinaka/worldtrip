@@ -25,7 +25,8 @@
     "**/*.ts",
     "**/*.tsx",
     "jest.setup.js",
-    "src/components/Link/index.jsx"
+    "src/components/Link/index.jsx",
+    "src/components/ColorsGrid/ColorsGrid.stories.msx"
   ],
   "exclude": ["node_modules"]
 }

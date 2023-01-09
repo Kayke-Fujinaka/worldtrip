@@ -1,4 +1,4 @@
-import { Divider } from "@chakra-ui/react";
+import { Divider, Heading } from "@chakra-ui/react";
 
 import { Banner, Header, TravelTypes } from "@/components";
 import { SEO } from "@/SEO";
@@ -17,6 +17,16 @@ export default function Home() {
         opacity="1"
         mx="auto"
       />
+      <Heading
+        textAlign="center"
+        color="dark_heading_and_text"
+        fontWeight="medium"
+        lineHeight={1.5}
+        my={{ base: 3, md: 12 }}
+      >
+        Vamos nessa?
+        <br /> Então escolha seu continente
+      </Heading>
     </>
   );
 }

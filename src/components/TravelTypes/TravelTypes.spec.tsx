@@ -7,7 +7,7 @@ describe("TravelTypes component", () => {
     Object.defineProperty(window, "matchMedia", {
       writable: true,
       value: jest.fn().mockImplementation((query) => ({
-        matches: query !== "(min-width: 700px)",
+        matches: false,
         media: query,
         onchange: null,
         addListener: jest.fn(), // Deprecated

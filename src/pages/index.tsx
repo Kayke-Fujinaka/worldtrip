@@ -15,6 +15,7 @@ export default function Home() {
         textAlign="center"
         color="dark_heading_and_text"
         fontWeight="medium"
+        fontSize={{ base: "xl", md: "4xl" }}
         lineHeight={1.5}
         my={{ base: 3, md: 12 }}
       >

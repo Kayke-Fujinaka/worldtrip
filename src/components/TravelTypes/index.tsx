@@ -33,12 +33,11 @@ export function TravelTypes() {
 
   return (
     <Grid
-      templateColumns={{ base: "1fr 1fr", md: "repeat(5, 1fr)" }}
+      templateColumns={{ base: "1fr", sm: "1fr 1fr", md: "repeat(5, 1fr)" }}
       w="100%"
       my={{ base: "9", md: "20" }}
       mx="auto"
       maxW="1160px"
-      flexWrap="wrap"
       gap={[1, 5]}
     >
       {Object.entries(travels).map(([key, item]) => (

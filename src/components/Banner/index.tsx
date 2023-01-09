@@ -22,7 +22,7 @@ export function Banner() {
           fontWeight="medium"
           color="light_heading_and_text"
         >
-          5 Continentes, <br /> infinitas possibilidades.
+          6 Continentes, <br /> infinitas possibilidades.
         </Heading>
         <Text
           fontSize={{ base: "sm", md: "xl" }}

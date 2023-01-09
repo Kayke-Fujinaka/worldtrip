@@ -35,7 +35,7 @@ export function TravelTypes() {
     <Grid
       templateColumns={{ base: "1fr 1fr", md: "repeat(5, 1fr)" }}
       w="100%"
-      mt={{ base: "9", md: "20" }}
+      my={{ base: "9", md: "20" }}
       mx="auto"
       maxW="1160px"
       flexWrap="wrap"

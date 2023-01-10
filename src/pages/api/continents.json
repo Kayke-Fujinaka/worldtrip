@@ -1,0 +1,256 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "countries": "50",
+      "continentImage": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "languages": "60",
+      "popularCities": {
+        "amount": "32",
+        "cities": [
+          {
+            "id": 1,
+            "name": "Londres",
+            "image": "https://images.unsplash.com/photo-1581430872221-d1cfed785922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "Reino Unido",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_uk-flag.gif"
+          },
+          {
+            "id": 2,
+            "name": "Paris",
+            "image": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+            "country": "França",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_fr-flag.gif"
+          },
+          {
+            "id": 3,
+            "name": "Roma",
+            "image": "https://plus.unsplash.com/premium_photo-1661963952208-2db3512ef3de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80",
+            "country": "Itália",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_it-flag.gif"
+          },
+          {
+            "id": 4,
+            "name": "Praga",
+            "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "República Tcheca",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_ez-flag.gif"
+          },
+          {
+            "id": 5,
+            "name": "Amsterdã",
+            "image": "https://images.unsplash.com/photo-1562170024-fc6d5fadecdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "Holanda",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_nl-flag.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "América do Norte",
+      "description": "A América do Norte corresponde à parte norte do continente americano, é formada por três países, Estados Unidos, Canadá e México, que ocupam juntos uma área de 23,6 milhões de quilômetros quadrados.",
+      "countries": "3",
+      "continentImage": "https://images.unsplash.com/photo-1580755704223-cb95b31e444c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1616469167581-1b2b0c9ba346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+      "languages": "256",
+      "popularCities": {
+        "amount": "9",
+        "cities": [
+          {
+            "id": 1,
+            "name": "New York City",
+            "image": "https://images.unsplash.com/photo-1585929292292-4e69883432a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+            "country": "Estados Unidos",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
+          },
+          {
+            "id": 2,
+            "name": "Los Angeles",
+            "image": "https://images.unsplash.com/flagged/photo-1575555201693-7cd442b8023f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+            "country": "Estados Unidos",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
+          },
+          {
+            "id": 3,
+            "name": "Orlando",
+            "image": "https://images.unsplash.com/photo-1618945372420-2470ece5277c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "Estados Unidos",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
+          },
+          {
+            "id": 4,
+            "name": "Toronto",
+            "image": "https://images.unsplash.com/photo-1507992781348-310259076fe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "Canadá",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_ca-flag.gif"
+          },
+          {
+            "id": 5,
+            "name": "Las Vegas",
+            "image": "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80",
+            "country": "Estados Unidos",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Asia",
+      "description": "A Ásia é o maior continente em área terrestre do mundo, estando boa parte do continente localizado no Hemisfério Norte. Além de ser o mais extenso, é também o mais populoso, habitando nele cerca de três quintos da população mundial.",
+      "countries": "49",
+      "continentImage": "https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1574236170878-f66e35f83207?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "languages": "2300",
+      "popularCities": {
+        "amount": "43",
+        "cities": [
+          {
+            "id": 1,
+            "name": "Hong Kong",
+            "image": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+            "country": "China",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_ch-flag.gif"
+          },
+          {
+            "id": 2,
+            "name": "Bangkok",
+            "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "country": "Tailândia",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_th-flag.gif"
+          },
+          {
+            "id": 3,
+            "name": "Singapura",
+            "image": "https://images.unsplash.com/photo-1496939376851-89342e90adcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "República da Singapura",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_sn-flag.gif"
+          },
+          {
+            "id": 4,
+            "name": "Tokyo",
+            "image": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=80",
+            "country": "Japão",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_ja-flag.gif"
+          },
+          {
+            "id": 5,
+            "name": "Xangai",
+            "image": "https://images.unsplash.com/photo-1501621185719-221c3312e3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+            "country": "China",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_ch-flag.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "América do Sul",
+      "description": "A América do Sul é um subcontinente que faz parte do continente americano. Apresenta área de 17 milhões de km², com a maior extensão situada no hemisfério sul do planeta Terra. A população sul-americana é de mais de 434 milhões de habitantes, a qual é distribuída por 12 países e um departamento ultramarino francês",
+      "countries": "12",
+      "continentImage": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1620218776119-2bc322e2d7ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "languages": "456",
+      "popularCities": {
+        "amount": "4",
+        "cities": [
+          {
+            "id": 1,
+            "name": "Buenos Aires City",
+            "image": "https://images.unsplash.com/photo-1612294037637-ec328d0e075e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "Argentina",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_ar-flag.gif"
+          },
+          {
+            "id": 2,
+            "name": "Lima",
+            "image": "https://images.unsplash.com/photo-1577587230708-187fdbef4d91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+            "country": "Peru",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_pe-flag.gif"
+          },
+          {
+            "id": 3,
+            "name": "Rio de Janeiro",
+            "image": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1526&q=80",
+            "country": "Brasil",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_br-flag.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "África",
+      "description": "A África é um continente localizado na zona intertropical, com maior parte do seu território no Hemisfério Sul. Possui mais de um bilhão de habitantes e 30 milhões de km2 de extensão, sendo, por isso, considerado um dos maiores e mais populosos continentes do mundo.",
+      "countries": "54",
+      "continentImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "languages": "2000",
+      "popularCities": {
+        "amount": "13",
+        "cities": [
+          {
+            "id": 1,
+            "name": "Joanesburgo",
+            "image": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "country": "África do Sul",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_sf-flag.gif"
+          },
+          {
+            "id": 2,
+            "name": "Marraquexe",
+            "image": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
+            "country": "Marrocos",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_mo-flag.gif"
+          },
+          {
+            "id": 3,
+            "name": "Mugla",
+            "image": "https://images.unsplash.com/photo-1649841676913-3c4a0ed15623?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+            "country": "Turquia",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_tu-flag.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Oceania",
+      "description": "A Oceania é um continente situado entre os oceanos Índico e Pacífico, a sudeste da Ásia. A maior parte de suas terras fica no Hemisfério Sul do planeta. É composto por 14 países e ilhas e territórios pertencentes a outros países, tanto oceânicos quanto de outros continentes.",
+      "countries": "14",
+      "continentImage": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1545044846-351ba102b6d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "languages": "1000",
+      "popularCities": {
+        "amount": "3",
+        "cities": [
+          {
+            "id": 1,
+            "name": "Melbourne",
+            "image": "https://images.unsplash.com/photo-1595434971780-79d5c20c5090?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+            "country": "Austrália",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_as-flag.gif"
+          },
+          {
+            "id": 2,
+            "name": "Auckland",
+            "image": "https://images.unsplash.com/photo-1595125990323-885cec5217ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+            "country": "Austrália",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_as-flag.gif"
+          },
+          {
+            "id": 3,
+            "name": "Sidney",
+            "image": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+            "country": "Austrália",
+            "flag": "https://www.worldometers.info/img/flags/small/tn_as-flag.gif"
+          }
+        ]
+      }
+    }
+  ]
+}

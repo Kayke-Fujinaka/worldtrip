@@ -19,6 +19,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@types/swiper": "^6.0.0",
+    "axios": "^1.2.2",
     "framer-motion": "^8.2.0",
     "json-server": "^0.17.1",
     "next": "12.2.0",

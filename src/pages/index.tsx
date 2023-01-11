@@ -1,6 +1,6 @@
 import { Heading } from "@chakra-ui/react";
 
-import { Banner, Divider, Header, TravelTypes } from "@/components";
+import { Banner, Carrousel, Divider, Header, TravelTypes } from "@/components";
 import { SEO } from "@/SEO";
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
         Vamos nessa?
         <br /> Então escolha seu continente
       </Heading>
+      <Carrousel />
     </>
   );
 }

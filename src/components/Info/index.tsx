@@ -7,7 +7,7 @@ interface InfoProps {
 
 export function Info({ value, label }: InfoProps) {
   return (
-    <Container mt="1rem" mb="2rem" textAlign={{ base: "start", md: "center" }}>
+    <Container mb="2rem" textAlign={{ base: "start", md: "center" }}>
       <Text
         as="strong"
         color="highlight"

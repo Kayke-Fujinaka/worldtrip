@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 
 import { Flex, Heading } from "@chakra-ui/react";
-import Link from "next/link";
+import { useRouter } from "next/router";
+import { setCookie } from "nookies";
 import { Keyboard, Mousewheel, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -34,6 +35,8 @@ interface Continent {
 }
 
 export function Carrousel() {
+  const router = useRouter();
+
   const [continents, setContinents] = useState([]);
 
   useEffect(() => {
@@ -42,6 +45,11 @@ export function Carrousel() {
       .then((response) => setContinents(response.data))
       .catch((err) => console.log(err));
   }, []);
+
+  const handleClickInSlide = (continent: Continent): void => {
+    setCookie(null, "CONTINENT", JSON.stringify(continent));
+    router.push(`continent/${continent.id}`);
+  };
 
   return (
     <Flex
@@ -67,32 +75,33 @@ export function Carrousel() {
         }}
       >
         {continents.map((continent: Continent) => (
-          <SwiperSlide key={continent.id}>
-            <Link href={`/continent/${continent.id}`}>
-              <Flex
-                w="100%"
-                h="100%"
-                align="center"
-                justify="center"
-                direction="column"
-                bgColor="#000000"
-                bgImage={`url('${continent.continentImage}')`}
-                bgPosition="100% 30%"
-                bgRepeat="no-repeat"
-                bgSize="cover"
-                opacity={0.9}
-                textAlign="center"
-                textShadow="1px 2px #000000"
+          <SwiperSlide
+            key={continent.id}
+            onClick={() => handleClickInSlide(continent)}
+          >
+            <Flex
+              w="100%"
+              h="100%"
+              align="center"
+              justify="center"
+              direction="column"
+              bgColor="#000000"
+              bgImage={`url('${continent.continentImage}')`}
+              bgPosition="100% 30%"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              opacity={0.9}
+              textAlign="center"
+              textShadow="1px 2px #000000"
+            >
+              <Heading
+                fontSize={["3xl", "4xl", "5xl"]}
+                color="gray.100"
+                fontWeight="bold"
               >
-                <Heading
-                  fontSize={["3xl", "4xl", "5xl"]}
-                  color="gray.100"
-                  fontWeight="bold"
-                >
-                  {continent.name}
-                </Heading>
-              </Flex>
-            </Link>
+                {continent.name}
+              </Heading>
+            </Flex>
           </SwiperSlide>
         ))}
       </Swiper>

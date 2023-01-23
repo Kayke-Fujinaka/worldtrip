@@ -2,7 +2,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import { parseCookies } from "nookies";
 
-import { BannerContinent, Header, Info } from "@/components";
+import { BannerContinent, Cities, Header, Info } from "@/components";
 
 interface Continent {
   continent: {
@@ -33,7 +33,7 @@ export default function Continent({ continent }: Continent) {
     <div>
       <Header />
       <BannerContinent continent={continent} />
-      <Box px={{ md: "8.75rem" }} py={{ md: "2rem" }}>
+      <Box px={{ base: "1rem", md: "9.75rem" }} py={{ md: "2rem" }}>
         <Box
           display={{ lg: "flex" }}
           justifyContent="center"
@@ -45,7 +45,7 @@ export default function Continent({ continent }: Continent) {
             fontWeight="normal"
             lineHeight={{ base: "5.5", md: "8" }}
             textAlign="justify"
-            padding={{ base: "1rem" }}
+            paddingY={{ base: "1rem" }}
             flex={{ md: "2" }}
           >
             {continent.description}
@@ -56,6 +56,7 @@ export default function Continent({ continent }: Continent) {
             <Info label="cidades +100" value={continent.popularCities.amount} />
           </Flex>
         </Box>
+        <Cities cities={continent.popularCities.cities} />
       </Box>
     </div>
   );
